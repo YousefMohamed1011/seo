@@ -113,7 +113,7 @@ li {
   max-width: 100%;
 }
 .hero .box-content {
-  max-width: 50%;
+  width: 50%;
 }
 .hero .box-content .color-1 {
   color: #28bef8;
@@ -160,10 +160,9 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
   }
   .hero .box-content {
-    max-width: 100%;
+    width: 100%;
   }
   .hero .box-img {
     margin: 0 auto;
@@ -183,7 +182,7 @@ li {
   }
   .hero .box-content h1 {
     color: #3a3f52;
-    font-size: 30px;
+    font-size: 27px;
     line-height: 1;
   }
   .hero .box-content .color-3 {
@@ -380,8 +379,23 @@ li {
     margin: 0 auto;
     width: 100%;
   }
+  .flex .name .p h3 {
+    color: #3a3f52;
+    font-size: 18px;
+  }
   .user .Lorem {
     font-size: 15px;
+  }
+  .p span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background-color: #28bef8;
+    padding: 5px 14px;
+    font-size: 13px;
+    border-radius: 15px;
+    color: white;
   }
 }
 /* end recommend  */
